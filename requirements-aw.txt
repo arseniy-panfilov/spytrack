@@ -1,0 +1,5 @@
+aw-core @ git+https://github.com/ActivityWatch/aw-core@v0.5.1#egg=aw-core
+aw-client @ git+https://github.com/ActivityWatch/aw-client@v0.5.1#egg=aw-client
+aw-server @ git+https://github.com/ActivityWatch/aw-server.git@master#egg=aw-server
+aw-watcher-afk @ git+https://github.com/ActivityWatch/aw-watcher-afk.git@master#egg=aw-watcher-afk
+aw-watcher-window @ git+https://github.com/ActivityWatch/aw-watcher-window.git@8075f16de6512767491712946ed5741d2ed9eb9c#egg=aw-watcher-window

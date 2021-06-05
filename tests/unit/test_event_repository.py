@@ -1,11 +1,13 @@
 import unittest
 from datetime import datetime
-from aw_core import Event
 from typing import List, Tuple
+from unittest.mock import MagicMock, Mock
+
+from aw_client.client import ActivityWatchClient
+from aw_core.models import Event
+
 from analyze.event_repository import EventRepository
 from .dataset import get_events
-from unittest.mock import Mock, MagicMock
-from aw_client import ActivityWatchClient
 
 
 class TestEventRepository(unittest.TestCase):
